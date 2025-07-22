@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  workflows: write # <-- 这一行是关键的修改！
+  actions: write
 
 jobs:
   sync_latest_from_upstream:

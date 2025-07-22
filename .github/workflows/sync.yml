@@ -7,9 +7,7 @@ on:
 
 permissions:
   contents: write
-  actions: write
- # 授予写入工作流的权限（解决当前错误的关键！）
-  workflows: write # <--- 添加或确保这一行存在
+  workflows: write # <-- 这一行是关键的修改！
 
 jobs:
   sync_latest_from_upstream:
